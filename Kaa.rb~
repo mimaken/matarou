@@ -1,0 +1,11 @@
+# _*_ coding: utf-8 _*_
+
+a,b = STDIN.gets.split.map(&:to_i)
+if a > b then
+ `a > b` 
+elsif a < b then
+ `a < b`
+else  
+ `a == b` 
+end
+
